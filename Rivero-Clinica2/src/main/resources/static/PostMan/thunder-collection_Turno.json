@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Turno",
+    "dateExported": "2023-04-10T22:51:01.001Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e44c4abd-064d-4358-a9ab-0c8c6eba7af2",
+            "colId": "8d3aad95-29d4-4dea-8c28-81a29945a3a9",
+            "containerId": "",
+            "name": "Eliminar turno",
+            "url": "http://localhost:8080/turnos/1",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-19T19:02:31.049Z",
+            "modified": "2023-03-19T19:13:45.261Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06d7bd39-d2ef-4968-94c7-c8faac6e16e1",
+            "colId": "8d3aad95-29d4-4dea-8c28-81a29945a3a9",
+            "containerId": "",
+            "name": "Actualizar datos tunro",
+            "url": "http://localhost:8080/turnos/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-03-19T19:02:31.050Z",
+            "modified": "2023-03-19T19:13:32.375Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"id\": 1,\n    \"fecha\": \"2023-03-01\",\n    \"paciente\": {\n      \"id\": 2,\n      \"nombre\": \"Bona\",\n      \"apellido\": \"Wang\",\n      \"dni\": \"3845389\",\n      \"fechaIngreso\": \"2023-03-07\",\n      \"domicilio\": {\n        \"id\": 2,\n        \"calle\": \"Maipú\",\n        \"numero\": 2030,\n        \"localidad\": \"Salta\",\n        \"provincia\": \"Salta\"\n      }\n    },\n    \"odontologo\": {\n      \"id\": 1,\n      \"numeroMatricula\": \"2002\",\n      \"nombre\": \"Chaehyun\",\n      \"apellido\": \"Kim\"\n    }\n  }\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "74c6c9c1-6f69-4db5-889f-13063b8ec972",
+            "colId": "8d3aad95-29d4-4dea-8c28-81a29945a3a9",
+            "containerId": "",
+            "name": "Buscar turno por ID",
+            "url": "http://localhost:8080/turnos/8",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-19T19:02:31.051Z",
+            "modified": "2023-03-28T01:55:45.364Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f5e74e37-c9fc-4143-837a-98c5435adab0",
+            "colId": "8d3aad95-29d4-4dea-8c28-81a29945a3a9",
+            "containerId": "",
+            "name": "Guardar Turno",
+            "url": "http://localhost:8080/turnos/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-19T19:02:31.052Z",
+            "modified": "2023-04-03T14:11:03.260Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"id\": 1,\n    \"fecha\": \"2023-03-01\",\n    \"paciente\": {\n  \"id\": 1,\n  \"nombre\": \"EjemploN\",\n  \"apellido\": \"EjemploA\",\n  \"dni\": \"4099702\",\n  \"fechaIngreso\": \"2023-03-07\",\n  \"domicilios\": {\n    \"id\": 1,\n    \"calle\": \"CalleEjemplo\",\n    \"numero\": 200,\n    \"localidad\": \"Ciudad\",\n    \"provincia\": \"ProvinciaE\"\n  }\n},\n    \"odontologo\": {\n  \"id\": 1,\n  \"numeroMatricula\": \"508\",\n  \"nombre\": \"Dayeon\",\n  \"apellido\": \"Kim\"\n}\n   }\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "af8e6e65-c366-4e62-8d21-a004493a96dc",
+            "colId": "8d3aad95-29d4-4dea-8c28-81a29945a3a9",
+            "containerId": "",
+            "name": "Buscar turnos",
+            "url": "http://localhost:8080/turnos/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-19T19:02:31.053Z",
+            "modified": "2023-03-19T19:08:10.768Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

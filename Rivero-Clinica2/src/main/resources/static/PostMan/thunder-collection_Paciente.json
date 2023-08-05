@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Paciente",
+    "dateExported": "2023-04-10T22:50:48.043Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7ea789d2-8213-40a1-8f57-df8b56edde4c",
+            "colId": "fdc05d91-feac-48a1-8d3a-535466d69dc6",
+            "containerId": "",
+            "name": "Eliminar paciente",
+            "url": "http://localhost:8080/pacientes/4",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-19T19:01:40.308Z",
+            "modified": "2023-03-28T20:30:32.106Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9f06faac-25e2-4b92-b799-a7d2b6006bc1",
+            "colId": "fdc05d91-feac-48a1-8d3a-535466d69dc6",
+            "containerId": "",
+            "name": "Actualizar datos Paciente",
+            "url": "http://localhost:8080/pacientes/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-03-19T19:01:48.919Z",
+            "modified": "2023-04-03T13:08:36.751Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"nombre\": \"Kaito\",\n  \"apellido\": \"Ejemplo\",\n  \"dni\": \"4099702\",\n  \"fechaIngreso\": \"2023-03-07\",\n  \"domicilios\": {\n    \"id\": 1,\n    \"calle\": \"Callecualquiera\",\n    \"numero\": 200,\n    \"localidad\": \"Rafaela\",\n    \"provincia\": \"Santa fe\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d99cd7d3-1f1e-412a-9089-fbc11803c87e",
+            "colId": "fdc05d91-feac-48a1-8d3a-535466d69dc6",
+            "containerId": "",
+            "name": "Buscar paciente por ID",
+            "url": "http://localhost:8080/pacientes/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-19T19:01:55.272Z",
+            "modified": "2023-03-28T20:30:12.006Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bd89475e-8be8-42c0-a01f-0e561a558dbc",
+            "colId": "fdc05d91-feac-48a1-8d3a-535466d69dc6",
+            "containerId": "",
+            "name": "Guardar Paciente",
+            "url": "http://localhost:8080/pacientes/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-19T19:01:59.775Z",
+            "modified": "2023-04-03T12:48:30.327Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"EjemploN\",\n    \"apellido\": \"EjemploA\",\n    \"dni\": \"4099702\",\n    \"fechaIngreso\": \"2023-03-07\",\n    \"domicilios\": {\n    \"calle\": \"CalleEjemplo\",\n    \"numero\": 200,\n    \"localidad\": \"Ciudad\",\n    \"provincia\": \"ProvinciaE\"\n    }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "89929f2f-9e71-488d-a790-2cf94f2bbc29",
+            "colId": "fdc05d91-feac-48a1-8d3a-535466d69dc6",
+            "containerId": "",
+            "name": "Buscar Pacientes",
+            "url": "http://localhost:8080/pacientes/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-19T19:02:04.568Z",
+            "modified": "2023-03-19T19:02:04.568Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

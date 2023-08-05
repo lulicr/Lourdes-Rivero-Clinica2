@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Odontologo",
+    "dateExported": "2023-04-10T22:50:56.985Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "688a468d-32ac-4147-9a3e-194f88b0644f",
+            "colId": "24261d5c-8845-40d9-a3b3-fc1d096fcac7",
+            "containerId": "",
+            "name": "Eliminar odontologo",
+            "url": "http://localhost:8080/odontologos/1",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-19T19:02:12.953Z",
+            "modified": "2023-04-04T19:11:19.800Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c3a5d78a-c501-4b97-a31a-f46b78c3c463",
+            "colId": "24261d5c-8845-40d9-a3b3-fc1d096fcac7",
+            "containerId": "",
+            "name": "Actualizar datos Odontologo",
+            "url": "http://localhost:8080/odontologos/",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-03-19T19:02:12.954Z",
+            "modified": "2023-03-28T01:42:20.900Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 7,\n    \"numeroMatricula\": \"2002\",\n    \"nombre\": \"Dayeon\",\n    \"apellido\": \"Kim\"\n  }\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bef96abf-a075-4c0c-8eb4-3715ff76ad8b",
+            "colId": "24261d5c-8845-40d9-a3b3-fc1d096fcac7",
+            "containerId": "",
+            "name": "Buscar Odontologo por ID",
+            "url": "http://localhost:8080/odontologos/18",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-19T19:02:12.955Z",
+            "modified": "2023-03-28T20:22:07.213Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4b710b23-5335-4d77-ac81-3e5b3d32f6be",
+            "colId": "24261d5c-8845-40d9-a3b3-fc1d096fcac7",
+            "containerId": "",
+            "name": "Guardar odontologo",
+            "url": "http://localhost:8080/odontologos/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-19T19:02:12.956Z",
+            "modified": "2023-04-04T23:58:49.350Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\n{\n    \n    \"numeroMatricula\": \"508\",\n    \"nombre\": \"Dayeon\",\n    \"apellido\": \"Kim\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c96873eb-b1ce-4a56-83dd-30053bc387d2",
+            "colId": "24261d5c-8845-40d9-a3b3-fc1d096fcac7",
+            "containerId": "",
+            "name": "Buscar Odontologo",
+            "url": "http://localhost:8080/odontologos/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-19T19:02:12.957Z",
+            "modified": "2023-03-19T19:04:06.415Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
